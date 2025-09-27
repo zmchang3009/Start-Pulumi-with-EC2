@@ -1,8 +1,8 @@
 config:
-  aws:region: ap-southeast-1
+  aws:region: us-west-2              # Different region
   aws:defaultTags:
     tags: 
-      Environment: dev
+      Environment: workshop          # Updated environment
       ManagedBy: Pulumi
       GitRepo: Start-Pulumi-with-EC2
   workshop-config:org: workshop-resources-org # in aws account resources will be named as workshop-resources-org-dev-web-server-vpc
